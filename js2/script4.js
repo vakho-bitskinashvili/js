@@ -1,13 +1,9 @@
-var nums = [10, 15,16, 222];
-function maxNum(arr){
-    // console.log(Math.max(...arr));
-    var max = 0;
-    for(var num of arr){
-        if(num > max){
-            max = num;
-        }
+var start = 30;
+var stop = 10;
+for(var i = start; i >= stop; i-=5){
+    if(i % 2 == 0){
+        console.log(i * 2);
+    } else {
+        console.log(i);
     }
-    console.log(max);
 }
-
-maxNum(nums);
