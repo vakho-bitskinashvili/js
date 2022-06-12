@@ -1,0 +1,38 @@
+.filter-container {
+    max-width: 600px;
+    width: 100%;
+   
+}
+.search-block {
+    padding: 30px;
+}
+.search-block input {
+    padding: 10px;
+    width: 100%;
+}
+.search-block input:focus {
+    outline: none;
+}
+.user-list li {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.user-list img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.user-list li.hide {
+    display: none;
+}
+
+/* form styles */
+span {
+    display: block;
+    color: red;
+    margin: 5px;
+    font-style: italic;
+}
